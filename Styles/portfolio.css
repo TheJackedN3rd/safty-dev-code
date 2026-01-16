@@ -19,7 +19,11 @@
 .color-orange {
     color: #FD6E0A
 }
-
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .btn {
     background-color: #FD6E0A;
     border: none;
@@ -297,6 +301,28 @@ footer .footer-container {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    #banner{
+        gap: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #banner .banner-image img {
+        width: 100%;
+    }
+
+    #banner .banner-content h1{
+        font-size: 45px;
+    }
+    .btn-group{
+        justify-content: center;
+    }
+    header {
+    background:  url(../images/header_bg.png), #FFF8F3;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    }
     .container {
     width: 95%;
     }
@@ -324,7 +350,7 @@ footer .footer-container {
     .resume-card{
         margin-right: 10px;
     }
-    #skills .skills-container .skill-box , #about .about-container .about-info , footer .footer-container , #resume .resume-container , nav{
+    #skills .skills-container .skill-box , #about .about-container .about-info , footer .footer-container , #resume .resume-container , nav , #banner{
         flex-direction: column;
     }
     .skill-box .skill-card{
