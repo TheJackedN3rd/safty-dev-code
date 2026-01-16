@@ -281,4 +281,59 @@ footer .footer-container {
     border-radius: 5px;
 
     color: #757575
+<<<<<<< HEAD
+=======
+}
+
+.hide {
+    display: none !important;
+}
+
+@media screen and (max-width : 576px){
+
+    nav{
+        gap: 20px;
+    }
+    nav .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container {
+    width: 95%;
+    }
+
+    .section-heading h2 {
+    font-size: 30px;
+    
+    }
+
+    #about,
+    #skills,
+    #resume {
+    padding-top: 60px;
+    }
+    #about .about-container{
+        padding: 20px;
+    }
+    #about .about-container .about-info{
+        gap: 30px;
+    }
+
+    #resume .resume-container{
+        margin-top: 60px;
+    }
+    .resume-card{
+        margin-right: 10px;
+    }
+    #skills .skills-container .skill-box , #about .about-container .about-info , footer .footer-container , #resume .resume-container , nav{
+        flex-direction: column;
+    }
+    .skill-box .skill-card{
+        max-width: 100%;
+    }
+    .footer-container form input[type="text"], .footer-container form textarea {
+    width: 100%;
+    }
+
+>>>>>>> 3a5502c (Add initial portfolio website files including HTML, CSS, and images)
 }
