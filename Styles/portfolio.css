@@ -280,9 +280,8 @@ footer .footer-container {
     border: none;
     border-radius: 5px;
 
-    color: #757575
-<<<<<<< HEAD
-=======
+    color: #757575;
+
 }
 
 .hide {
@@ -335,5 +334,5 @@ footer .footer-container {
     width: 100%;
     }
 
->>>>>>> 3a5502c (Add initial portfolio website files including HTML, CSS, and images)
+
 }
